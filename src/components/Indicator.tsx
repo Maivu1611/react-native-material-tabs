@@ -15,6 +15,7 @@ const Bar = styled(Animated.View)`
   position: absolute;
   bottom: 0;
   background-color: ${(props: BarProps) => props.color};
+  border-radius: 50px;
 `;
 
 interface IndicatorProps {

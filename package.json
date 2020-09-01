@@ -1,6 +1,6 @@
 {
-  "name": "react-native-material-tabs",
-  "version": "4.1.2",
+  "name": "@maivu1611/react-native-material-tabs",
+  "version": "4.1.5",
   "description": "Material Design implementation of Tabs",
   "keywords": [
     "react",
@@ -8,14 +8,15 @@
     "material-design",
     "tabs"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "./src/index.ts",
   "types": "./src/index.d.ts",
   "files": [
     "src"
   ],
   "author": {
-    "name": "Kyle Roach",
-    "email": "kroach.work@gmail.com"
+    "name": "Maivu1611",
+    "email": "vungoc2901@gmail.com"
   },
   "license": "MIT",
   "scripts": {
@@ -61,7 +62,7 @@
   "homepage": "https://github.com/iRoachie/react-native-material-tabs#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iRoachie/react-native-material-tabs.git"
+    "url": "git+https://github.com/Maivu1611/react-native-material-tabs.git"
   },
   "jest": {
     "preset": "react-native",
@@ -77,5 +78,6 @@
       "eslint --fix src",
       "git add"
     ]
-  }
+  },
+  "private": false
 }

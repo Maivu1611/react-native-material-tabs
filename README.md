@@ -27,13 +27,13 @@
 Install the dependency
 
 ```bash
-npm i --save react-native-material-tabs
+npm i --save @maivu1611/react-native-material-tabs
 ```
 
 Or if you use yarn
 
 ```bash
-yarn add react-native-material-tabs
+yarn add @maivu1611/react-native-material-tabs
 ```
 
 #### Step 2
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
 | prop                      | default                  | type          | description                                                                                                                                                     |
 | ------------------------- | ------------------------ | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | barColor                  | #13897b                  | string        | Color of the tab bar                                                                                                                                            |
-| indicatorColor            | #fff                     | string        | Color of the indicator                                                                                                                                          |
+| indicatorColor            | #000                     | string        | Color of the indicator                                                                                                                                          |
 | activeTextColor           | #fff                     | string        | Color of the text for the selected tab                                                                                                                          |
 | inactiveTextColor         | rgba(255, 255, 255, 0.7) | string        | Color of the text for inactive tabs                                                                                                                             |
 | items                     | none                     | array(string  | element)                                                                                                                                                        | The headers for the individual tabs |

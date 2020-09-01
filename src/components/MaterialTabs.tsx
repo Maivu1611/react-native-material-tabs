@@ -165,7 +165,7 @@ const MaterialTabs: React.FC<Props> = ({
           <Indicator
             color={indicatorColor}
             value={indicatorPosition}
-            tabWidth={!scrollable ? tabWidth : barWidth * 0.4}
+            tabWidth={!scrollable ? tabWidth : barWidth * 0.8}
           />
         </ScrollView>
       </Bar>
@@ -179,7 +179,7 @@ MaterialTabs.defaultProps = {
   barColor: '#13897b',
   barHeight: constants.barHeight,
   activeTextColor: '#fff',
-  indicatorColor: '#fff',
+  indicatorColor: '#000',
   inactiveTextColor: 'rgba(255, 255, 255, 0.7)',
   scrollable: false,
   uppercase: true,
